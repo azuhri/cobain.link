@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LinkController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route("link.random");
 });
+
+Route::get('/link/random', function() {
+    return view("pages.link-random");
+})->name("link.random");
+
+Route::get('/link/custom', function() {
+    return view("pages.link-custom");
+})->name("link.custom");
+
+Route::post('generate-link', [LinkController::class, 'generateLink'])->name('link.generate');
+Route::get('{alias_link}', [LinkController::class, 'aliasLink'])->name('link.alias');
