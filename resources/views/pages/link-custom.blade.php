@@ -32,15 +32,5 @@
 @endsection
 
 @section('js')
- <script>
-     $("#alias_link").on('keyup',() => {
-        let value = removeSpaces($('#alias_link').val());
-        console.log(value);
-        $('#alias_link').val(value);
-     });
 
-     function removeSpaces(string) {
-        return string.split(' ').join('');
-    }
- </script>
 @endsection
