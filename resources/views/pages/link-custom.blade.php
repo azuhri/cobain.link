@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-<form class="row" action="{{route('link.generate')}}" method="POST">
+<form class="row p-4" action="{{route('link.generate')}}" method="POST">
     @csrf
     <input type="hidden" value="1" name="type_link">
     <div class="col-md-12 d-flex justify-content-center">
@@ -25,7 +25,7 @@
             <div class="p-0 col-md-4 t-small">Back to <a href="{{route('link.random')}}">default mode</a></div>
             <div class="p-0 col-md-8"></div>
 
-            <div class="p-0 col-md-10 t-small"><span class="mr-1">{{url('/')}}/</span><input class="w-80" type="text" id="alias_link" name="alias"></div>
+            <div class="p-0 col-md-10 t-small"><span class="mr-1">{{url('/')}}/</span><input class="w-80" type="text" id="alias_link" name="alias" required></div>
         </div>
     </div>
 </form>
