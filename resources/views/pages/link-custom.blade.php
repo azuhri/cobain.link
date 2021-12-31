@@ -9,7 +9,7 @@
     @csrf
     <input type="hidden" value="1" name="type_link">
     <div class="col-md-12 d-flex justify-content-center">
-        <span class="title-text c-main">Simple.link</span><br>
+        <span class="title-text c-main">cobain.link</span><br>
     </div>
     <div class="col-md-12 mb-3 d-flex justify-content-center">
         <span id="defaultMode">( Custom Link )</span>

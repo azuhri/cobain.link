@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{asset('css/bootstrap4-6.css')}}">
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
 
-    <title>Simple Link | @yield('title')</title>
+    <title>cobain.Link | @yield('title')</title>
   </head>
   <body>
     <div class="container-fluid vh-95 d-flex justify-content-center align-items-center" id="app">
@@ -17,7 +17,7 @@
     </div>
 
     <footer class="mb-4">
-        Copyright &copy; 2021 azuhri-dev | All Right Reserved | source code at : <a href="https://github.com/azuhri/simple.link.git" target="_blank">https://github.com/azuhri/simple.link.git</a>
+        Copyright &copy; 2021 azuhri-dev | All Right Reserved | source code at : <a href="https://github.com/azuhri/cobain.link.git" target="_blank">https://github.com/azuhri/cobain.link.git</a>
     </footer>
 
     <!-- Jquery 3.6 JS -->
