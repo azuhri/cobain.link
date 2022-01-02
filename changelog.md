@@ -1,3 +1,5 @@
+### 0.0.4 2/1/2022
+ = update system download QRCODE image
 ### 0.0.3 31/12/2021
  - refactoring codes
  - make docs to explained codes

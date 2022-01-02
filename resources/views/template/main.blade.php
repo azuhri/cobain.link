@@ -20,6 +20,8 @@
         Copyright &copy; 2021 azuhri-dev | All Right Reserved | source code at : <a href="https://github.com/azuhri/cobain.link.git" target="_blank">https://github.com/azuhri/cobain.link.git</a>
     </footer>
 
+    @yield('qrcode')
+
     <!-- Jquery 3.6 JS -->
     <script src="{{asset('js/jquery3-6.js')}}"></script>
     <!-- Bootstrap 4.6 JS -->
